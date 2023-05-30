@@ -21,7 +21,7 @@
       - python3 -m pip install -r requirements.txt
 
 5. Тест корзины: locust -f http_max_perf.py
-5.1 Раскомментируй часть кода для получения нужного результата ./locust_mock.py
+6. Раскомментируй часть кода для получения нужного результата ./locust_mock.py
 
 6. Тест Оплаты товара: locust -f kafka_max_perf.py --headless
 
