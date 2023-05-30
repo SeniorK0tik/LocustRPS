@@ -10,7 +10,7 @@ def check_http_response(transaction: str, response: ResponseContextManager) -> N
     :param transaction: str: Specify the type of transaction
     :param response: ResponseContextManager: Get the response body and to fail a transaction if needed
     :return: The following values:
-    :doc-author: Trelent
+    :doc-author: Trelent | SeniorK0tik
     """
     response_body = response.text
     if transaction == 'login':
